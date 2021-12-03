@@ -2,7 +2,12 @@
 👋 
 Hi, I’m @OakNut24 and this is the notes web app i've been working on for the last month built with the MERN stack.</br>
 In this app you can login with your Google account using PassportJS and the GoogleAuth2.0 strategy, you will get a confirmation email after you logged for your first time.</br>
-The notes have options like every notes app needs - editing,duplicating,archiving and trashing(a step before permanently deleting the note).
+The notes have options like every notes app needs - editing,duplicating,archiving and trashing(a step before permanently deleting the note).</br>
+The app is also responsive for mobile.</br>
+
+
+
+Heroku Deployment: <a href="https://intense-crag-31630.herokuapp.com/">Click Here</a>
 
 
 
