@@ -1,0 +1,329 @@
+:root {
+  --main-first-color: #dbd0c0;
+  --main-second-color: #faeee0;
+  --secondary-first-color: #f9e4c8;
+  --secondary-second-color: #f9cf93;
+}
+
+html {
+  font-family: "Montserrat Alternates", "sans-serif";
+}
+
+body {
+  /* padding: 0 16px; Padding all the body from the right and left by 16px */
+  background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+  background-color: #fff;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+/* --------------            Nav STYLES        ------------------------------------------------------------------------------------------------- */
+
+.nav-menu {
+}
+
+.nav-menu p {
+  padding-left: 1%;
+  padding-top: 2%;
+  padding-right: 0%;
+}
+/* --------------            Header STYLES        ------------------------------------------------------------------------------------------------- */
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  /* width: clamp(25%, 800px, 50%); */
+}
+
+header span {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  font-size: 40px;
+}
+header nav {
+  text-align: left;
+  margin-left: 92%;
+  height: 30px;
+  padding: 0;
+}
+
+.header-icon {
+  color: #fff;
+}
+/* --------------            Footer STYLES        ------------------------------------------------------------------------------------------------- */
+footer {
+  /* position: absolute;
+  text-align: center;
+  bottom: 0; */
+  width: 98%;
+  height: 3%;
+}
+
+footer p {
+  color: #ccc;
+  text-align: center;
+}
+/* --------------            SideNav STYLES        ------------------------------------------------------------------------------------------------- */
+
+.side-nav {
+  margin-top: 10px;
+  padding-top: 10%;
+  /* background-color: #fff; */
+  font-weight: 500;
+  height: 720px;
+}
+
+.side-nav-button {
+  background-color: var(--main-first-color);
+  border-radius: 0 20px 20px 0;
+  height: 48px;
+  min-width: 48px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.side-nav-button:hover {
+  background-color: var(--main-second-color);
+}
+.side-nav-button-selected {
+  background-color: #cc8800;
+}
+.side-nav-button-not-selected {
+  background-color: var(--main-first-color);
+}
+
+.side-nav-button-image {
+  padding-left: 30%;
+}
+
+.side-nav-button-text {
+  background-color: #fff;
+}
+/* --------------            CreateArea Styles        ------------------------------------------------------------------------------------------------- */
+
+form.create-area {
+  position: relative;
+  width: clamp(25%, 400px, 50%);
+  margin: 30px auto 70px auto; /* Up Right Down Left , Auto:center */
+  background: #fff;
+  padding: 15px; /* Padding from all directions */
+  border-radius: 10px; /* //Rounding the corners */
+  box-shadow: 0 2px 10px rgb(138, 137, 137); /* Creating the background */
+}
+
+form.create-area input,
+form.create-area textarea {
+  padding: 4px; /* Padding from all directions */
+  resize: none; /* Disable the ability to resize the text input size */
+  width: 100%; /*Making each element take 100% from RTL therefore make the elemnts in list like*/
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  border: none;
+}
+form.create-area button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background-color: #f5ba13;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  height: 36px;
+  width: 36px;
+  outline: none;
+  cursor: pointer;
+}
+
+form.create-area button:hover {
+  color: rgb(0, 0, 0);
+}
+
+/* --------------            Note Styles        ------------------------------------------------------------------------------------------------- */
+
+.note {
+  background-color: #cc8800;
+  background-image: url("https://www.transparenttextures.com/patterns/notebook.png");
+  position: relative;
+  width: 240px;
+  min-height: 80px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgb(138, 137, 137); /* Creating the background */
+  /* Control the note creation position and direction */
+
+  float: left;
+}
+
+.note-skeleton {
+  position: relative;
+  width: 240px;
+  min-height: 80px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgb(138, 137, 137); /* Creating the background */
+  /* Control the note creation position and direction */
+
+  float: left;
+}
+
+.note-title {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  min-height: 10px;
+  text-decoration: underline;
+  text-decoration-thickness: 10%;
+}
+.note-content {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  /* position: absolute;
+    right: 10px;
+    bottom: 0px; */
+  background-color: #f5b91300;
+  color: rgb(247, 239, 239);
+  border-radius: 75%;
+  border: none;
+  height: 36px;
+  width: 36px;
+  outline: none;
+  cursor: pointer;
+}
+.note button:hover {
+  color: rgb(0, 0, 0);
+}
+
+.note-edit {
+  height: auto;
+}
+.note-edit input,
+.note-edit textarea {
+  padding: 4px; /* Padding from all directions */
+  resize: none; /* Disable the ability to resize the text input size */
+  width: 100%; /*Making each element take 100% from RTL therefore make the elemnts in list like*/
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  border: none;
+  background: transparent;
+  border: none;
+}
+
+/* --------------            Notebook Styles        ------------------------------------------------------------------------------------------------- */
+.notebook {
+  min-height:  650px;
+}
+
+/* --------------            LOGIN STYLES        ------------------------------------------------------------------------------------------------- */
+
+.login-form-body {
+  position: relative;
+  width: clamp(25%, 800px, 60%);
+  margin: 15% auto 15% auto; /* Up Right Down Left , Auto:center */
+  background: #fff;
+  padding: 15px; /* Padding from all directions */
+  border-radius: 10px; /* //Rounding the corners */
+  box-shadow: 0 2px 10px rgb(138, 137, 137); /* Creating the background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 250px;
+}
+
+
+.login-form a {
+  width: 100%;
+  height: 35px;
+}
+
+.login-form p {
+  font-size: larger;
+  text-align: left;
+  padding-left: 3%;
+  padding-top: 0px;
+  padding-bottom: 7%;
+}
+
+.login-form header {
+  justify-content: baseline;
+  align-items: baseline;
+  text-align: baseline;
+
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.login-form header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+/* --------------            MODALS        ------------------------------------------------------------------------------------------------- */
+/* In the /UI/styles.js file */
+
+.create-note {
+  position: absolute;
+  right: 10%;
+  bottom: 15%;
+}
+
+.create-note button {
+  background-color: #f5ba13;
+  color: #fff;
+  font-size: 200px;
+  border-radius: 50%;
+  border: none;
+  height: 72px;
+  width: 72px;
+  outline: none;
+  cursor: pointer;
+}
+/* .create-note button{
+  background-color: #f5b91300;
+} */
+
+@media screen and (max-width: 600px) {
+  .note {
+    background-color: #cc8800;
+    background-image: url("https://www.transparenttextures.com/patterns/notebook.png");
+    position: relative;
+    width: 240px;
+    min-height: 80px;
+    margin: 30px auto 70px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgb(138, 137, 137); /* Creating the background */
+    /* Control the note creation position and direction */
+    float: unset;
+  }
+
+  .note-skeleton {
+    position: relative;
+    width: 240px;
+    min-height: 80px;
+    margin: 30px auto 70px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgb(138, 137, 137); /* Creating the background */
+    /* Control the note creation position and direction */
+  
+    float: unset;
+  }
+  
+}
