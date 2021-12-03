@@ -1,7 +1,8 @@
 # Web Notes App
-👋 Hi, I’m @OakNut24 and this is the notes web app i've been working on for the last month built with the MERN stack.
-In this app you can login with your Google account using PassportJS and the GoogleAuth2.0 strategy, you will get a confirmation email after you logged for your first time.
-The notes have options every notes app needs - editing,duplicating,archiving and trashing(a step before deleting the note).
+👋 
+Hi, I’m @OakNut24 and this is the notes web app i've been working on for the last month built with the MERN stack.</br>
+In this app you can login with your Google account using PassportJS and the GoogleAuth2.0 strategy, you will get a confirmation email after you logged for your first time.</br>
+The notes have options like every notes app needs - editing,duplicating,archiving and trashing(a step before permanently deleting the note).
 
 
 
@@ -22,7 +23,6 @@ The notes have options every notes app needs - editing,duplicating,archiving and
   <li>Mongoose</li>
   <li>Axios</li>
   <li>Nodemailer</li>
-  <li>NPM</li>
 
 </ul>
 
